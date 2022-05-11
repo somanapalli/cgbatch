@@ -22,7 +22,7 @@ public class HelloController {
 	public ModelAndView hello() {
 		
 		ModelAndView mv = new ModelAndView();
-		String result = "welcome to spring rest module";
+		String result = "welcome to spring rest module and git";
 		mv.addObject("res", result);
 		mv.setViewName("result");
 		return mv;
